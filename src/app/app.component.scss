@@ -1,0 +1,125 @@
+// Componente  1 
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 20px;
+}
+
+.box {
+    width: 100%;
+    height: 70px;
+    background: blue;
+}
+
+// Componente  2
+.content {
+    margin: 0px;
+    margin-top: 20px;
+}
+
+img {
+    filter: blur(5px);
+    //filter: brightness(0.4);
+    //filter:contrast(200%)
+    // filter: grayscale(50%);
+    //filter:hue-rotate(90deg);
+    //filter: invert(75%);
+    //filter: opacity(25%);
+    //filter: saturate(30%);
+}
+
+
+// Componente  3
+.limite-campo {
+    width: 200px;
+    padding: 8px;
+    border: 4px solid greenyellow;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+// Componente  4
+.botao {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    height: 30vh;
+    background: #1d2834;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 100px;
+    transition: all 0.6s ease-in-out 0.2s;
+    box-shadow: inset 0 0 20px;
+}
+
+.btn:hover {
+    background: transparent;
+    color: blue;
+    transform: scale(1.5) rotate(360deg);
+    box-shadow: 0 0 60px blue;
+    cursor: grab;
+    border: 2px solid blue;
+}
+
+
+// Componente  5
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+   
+}
+
+.cards .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transform: 400ms;
+    margin: 8px;
+    transition: all 0.2s ease-in-out 0.1s;
+}
+
+.cards .card p.second-text {
+    font-size: .7em;
+}
+
+.cards .card:hover {
+    filter: none;
+    transform: scale(1.1, 1.1);
+}
+
+.cards:hover .card:not(:hover) {
+    filter: blur(5px);
+}
+
+.card:not(:hover) {
+    filter: none;
+}
+
+.cards .red {
+    background-color: #f43f5e;
+}
+
+.cards .blue {
+    background-color: #3b82f6;
+}
+
+.cards .green {
+    background-color: #22c55e;
+}
