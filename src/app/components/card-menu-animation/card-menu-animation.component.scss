@@ -1,0 +1,60 @@
+.component-5 {
+    .content {
+        margin: 0px;
+        margin-top: 20px;
+    }
+
+    // Componente  5
+    .cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+
+    }
+
+    .cards .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        height: 100px;
+        width: 100%;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+        transform: 400ms;
+        margin: 8px;
+        transition: all 0.2s ease-in-out 0.1s;
+    }
+
+    .cards .card p.second-text {
+        font-size: .7em;
+    }
+
+    .cards .card:hover {
+        filter: none;
+        transform: scale(1.1, 1.1);
+    }
+
+    .cards:hover .card:not(:hover) {
+        filter: blur(5px);
+    }
+
+    .card:not(:hover) {
+        filter: none;
+    }
+
+    .cards .red {
+        background-color: #f43f5e;
+    }
+
+    .cards .blue {
+        background-color: #3b82f6;
+    }
+
+    .cards .green {
+        background-color: #22c55e;
+    }
+}

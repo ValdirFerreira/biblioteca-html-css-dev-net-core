@@ -1,0 +1,16 @@
+.component-3 {
+    .content {
+        margin: 0px;
+        margin-top: 20px;
+    }
+
+    // Componente  3
+    .limite-campo {
+        width: 200px;
+        padding: 8px;
+        border: 4px solid greenyellow;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

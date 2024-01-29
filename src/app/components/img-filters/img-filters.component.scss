@@ -1,0 +1,18 @@
+.component-2 {
+
+    .content {
+        margin: 0px;
+        margin-top: 20px;
+    }
+
+    img {
+        filter: blur(5px);
+        //filter: brightness(0.4);
+        //filter:contrast(200%)
+        // filter: grayscale(50%);
+        //filter:hue-rotate(90deg);
+        //filter: invert(75%);
+        //filter: opacity(25%);
+        //filter: saturate(30%);
+    }
+}
