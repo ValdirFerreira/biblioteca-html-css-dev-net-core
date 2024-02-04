@@ -8,6 +8,7 @@ import { ImgFiltersComponent } from './components/img-filters/img-filters.compon
 import { LimitDivComponent } from './components/limit-div/limit-div.component';
 import { ButtonAnimationComponent } from './components/button-animation/button-animation.component';
 import { CardMenuAnimationComponent } from './components/card-menu-animation/card-menu-animation.component';
+import { CardProComponent } from './components/card-pro/card-pro.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CardMenuAnimationComponent } from './components/card-menu-animation/car
     ImgFiltersComponent,
     LimitDivComponent,
     ButtonAnimationComponent,
-    CardMenuAnimationComponent
+    CardMenuAnimationComponent,
+    CardProComponent
   ],
   imports: [
     BrowserModule,
