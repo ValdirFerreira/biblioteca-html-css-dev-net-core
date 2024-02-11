@@ -9,6 +9,7 @@ import { LimitDivComponent } from './components/limit-div/limit-div.component';
 import { ButtonAnimationComponent } from './components/button-animation/button-animation.component';
 import { CardMenuAnimationComponent } from './components/card-menu-animation/card-menu-animation.component';
 import { CardProComponent } from './components/card-pro/card-pro.component';
+import { CardPerspectiveComponent } from './components/card-perspective/card-perspective.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CardProComponent } from './components/card-pro/card-pro.component';
     LimitDivComponent,
     ButtonAnimationComponent,
     CardMenuAnimationComponent,
-    CardProComponent
+    CardProComponent,
+    CardPerspectiveComponent
   ],
   imports: [
     BrowserModule,

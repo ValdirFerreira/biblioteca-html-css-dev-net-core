@@ -1,0 +1,80 @@
+.componente-7 {
+
+    margin: 10vw;
+
+    .outer-box {
+        perspective: 500px;
+        max-width: 30ch;
+        padding: 2rem 2rem 2rem 4rem;
+        position: relative;
+        z-index: 1;
+        margin: auto;
+    }
+
+    p,
+    h2 {
+        inset: 0;
+        z-index: -1;
+        background: lightblue;
+        border-radius: 1rem;
+        perspective-origin: left;
+        transform: rotateY(-30deg);
+        perspective: 500px;
+    }
+
+    .box {
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        background: lightblue;
+        border-radius: 1rem;
+        perspective-origin: left;
+        transform: rotateY(-30deg);
+        perspective: 500px;
+        box-shadow: 2rem 1rem 1rem rgba(black, .5);
+    }
+
+    .content-hamburger {
+        inset: 0;
+        z-index: -1;
+        background: lightblue;
+        border-radius: 1rem;
+        perspective-origin: left;
+        transform: rotateY(-30deg);
+        perspective: 500px;
+    }
+
+    .hamburger {
+        height: 50px;
+        width: 50px;
+        display: grid;
+        margin-left: auto;
+        border-radius: 4px;
+    }
+
+    .hamburger .item-a,
+    .hamburger .item-b,
+    .hamburger .item-c {
+        height: 5px;
+        width: 50px;
+        background: gray;
+        transition: transform 1s, opacity 1s;
+    }
+
+    .hamburger:hover .item-c {
+        opacity: 0;
+    }
+
+    .hamburger:hover .item-a {
+        transform: rotate(45deg);
+        position: relative;
+        top: 17px;
+    }
+
+    .hamburger:hover .item-b {
+        transform: rotate(-45deg);
+        position: relative;
+    }
+
+
+}
