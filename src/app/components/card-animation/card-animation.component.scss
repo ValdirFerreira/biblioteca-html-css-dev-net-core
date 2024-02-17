@@ -1,0 +1,78 @@
+
+
+:root {
+    --card-height: 65vh;
+    --card-width: calc(var(var(--card-height)) / 1.5);
+}
+
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+}
+
+.componente-8 {
+  
+    .content {
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+        background: #212534;
+        width: 200px;
+        height: 500px;
+        padding: 8px;
+        position: relative;
+        border-radius: 6px;
+        font-size: 1.5em;
+        color: rgb(88 199 250 / 0%);
+        cursor: pointer;
+        font-family: 'Courier New', Courier, monospace;
+        margin: auto;
+    }
+    
+    .card:hover
+    {
+        color: rgb(88 199 250 / 100%);
+        transition: color 1s;
+    }
+    
+    .card:hover::before,
+    .card:hover::after
+    {
+        animation: none;
+        opacity: 0;
+    }
+    
+    .card::before
+    {
+        content: "";
+        width: 104%;
+        height: 102%;
+        border-radius: 8px;
+        background-image: 
+        linear-gradient(var(--rotate), #5dffc6, #3c67e3 43%, #4e00c2);
+        position: absolute;
+        z-index: -1;
+        top: -1%;
+        left: -2%;
+        animation: spin 2.5s linear infinite;
+    }
+    
+    @keyframes spin {
+        0% {
+            --rotate: 0deg;
+        }
+    
+        100% {
+            --rotate:360deg;
+        }
+    }
+}
+

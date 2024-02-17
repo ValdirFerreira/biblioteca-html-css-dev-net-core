@@ -10,6 +10,7 @@ import { ButtonAnimationComponent } from './components/button-animation/button-a
 import { CardMenuAnimationComponent } from './components/card-menu-animation/card-menu-animation.component';
 import { CardProComponent } from './components/card-pro/card-pro.component';
 import { CardPerspectiveComponent } from './components/card-perspective/card-perspective.component';
+import { CardAnimationComponent } from './components/card-animation/card-animation.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CardPerspectiveComponent } from './components/card-perspective/card-per
     ButtonAnimationComponent,
     CardMenuAnimationComponent,
     CardProComponent,
-    CardPerspectiveComponent
+    CardPerspectiveComponent,
+    CardAnimationComponent
   ],
   imports: [
     BrowserModule,
