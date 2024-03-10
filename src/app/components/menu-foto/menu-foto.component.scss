@@ -1,0 +1,38 @@
+.container {
+    height: 100%;
+    padding: 24px;
+}
+
+.avatars {
+    --avatar-count: 5;
+    --avatar-size: 75px;
+    --column-size: calc(var(--avatar-size)/10);
+
+    display: grid;
+    grid-template-columns: repeat(var(--avatar-count), var(--column-size));
+    transition: 500ms;
+    transition-delay: 500ms;
+}
+
+.avatars:hover
+{
+    --column-size: calc(var(--avatar-size) * 1.5);
+    transition-delay: 0ms;
+}
+
+.avatar
+{
+    width: var(--avatar-size);
+    border-radius: 100vw;
+    border:  5px solid #fff;
+    box-shadow: 0.25rem 0.25rem 0.5rem hsl(0 0% 0% / 0.2);
+    background: gray;
+    transition: scale 500ms;
+}
+
+.avatar:hover
+{
+    scale: 2;
+    z-index: 2;
+}
+
