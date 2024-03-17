@@ -13,6 +13,7 @@ import { CardPerspectiveComponent } from './components/card-perspective/card-per
 import { CardAnimationComponent } from './components/card-animation/card-animation.component';
 import { LayoutResponsivoComponent } from './components/layout-responsivo/layout-responsivo.component';
 import { MenuFotoComponent } from './components/menu-foto/menu-foto.component';
+import { ComponenteBtnComponent } from './components/componente-btn/componente-btn.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { MenuFotoComponent } from './components/menu-foto/menu-foto.component';
     CardPerspectiveComponent,
     CardAnimationComponent,
     LayoutResponsivoComponent,
-    MenuFotoComponent
+    MenuFotoComponent,
+    ComponenteBtnComponent
   ],
   imports: [
     BrowserModule,
