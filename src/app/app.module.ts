@@ -14,6 +14,7 @@ import { CardAnimationComponent } from './components/card-animation/card-animati
 import { LayoutResponsivoComponent } from './components/layout-responsivo/layout-responsivo.component';
 import { MenuFotoComponent } from './components/menu-foto/menu-foto.component';
 import { ComponenteBtnComponent } from './components/componente-btn/componente-btn.component';
+import { MsnAutoComponent } from './components/msn-auto/msn-auto.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ComponenteBtnComponent } from './components/componente-btn/componente-b
     CardAnimationComponent,
     LayoutResponsivoComponent,
     MenuFotoComponent,
-    ComponenteBtnComponent
+    ComponenteBtnComponent,
+    MsnAutoComponent
   ],
   imports: [
     BrowserModule,

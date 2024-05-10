@@ -1,0 +1,47 @@
+.componente-12 {
+    .chat {
+        background: #989797;
+        padding: 1em;
+        border-radius: 1em;
+        margin: 1em;
+        animation: chat-popup 500ms both;
+        transform-origin: bottom right;
+
+        @for $i from 1 through 6 {
+            &:nth-child(#{$i}) {
+                animation-delay: calc(#{$i} * 1000ms);
+                width: random() * 80%;
+                min-width: 300px;
+            }
+
+            &:nth-child(#{$i}) .name {
+                --hue: calc(#{$i} * 100);
+            }
+        }
+    }
+
+    .name {
+        margin: 0 0 0.5em;
+        font-weight: 700;
+        color: hsl(var(--hue, 173deg), 100%, 50%);
+    }
+
+    .comment {
+        color: #fff;
+    }
+
+
+    @keyframes chat-popup {
+
+        0% {
+            transform: scale(0);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+
+    }
+
+
+}
