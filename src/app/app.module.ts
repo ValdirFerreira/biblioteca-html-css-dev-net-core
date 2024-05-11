@@ -16,6 +16,7 @@ import { MenuFotoComponent } from './components/menu-foto/menu-foto.component';
 import { ComponenteBtnComponent } from './components/componente-btn/componente-btn.component';
 import { MsnAutoComponent } from './components/msn-auto/msn-auto.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +31,8 @@ import { MsnAutoComponent } from './components/msn-auto/msn-auto.component';
     LayoutResponsivoComponent,
     MenuFotoComponent,
     ComponenteBtnComponent,
-    MsnAutoComponent
+    MsnAutoComponent,
+
   ],
   imports: [
     BrowserModule,
