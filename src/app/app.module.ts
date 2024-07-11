@@ -15,6 +15,7 @@ import { LayoutResponsivoComponent } from './components/layout-responsivo/layout
 import { MenuFotoComponent } from './components/menu-foto/menu-foto.component';
 import { ComponenteBtnComponent } from './components/componente-btn/componente-btn.component';
 import { MsnAutoComponent } from './components/msn-auto/msn-auto.component';
+import { GraficoColunasComponent } from './components/grafico-colunas/grafico-colunas.component';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { MsnAutoComponent } from './components/msn-auto/msn-auto.component';
     MenuFotoComponent,
     ComponenteBtnComponent,
     MsnAutoComponent,
+    GraficoColunasComponent,
 
   ],
   imports: [

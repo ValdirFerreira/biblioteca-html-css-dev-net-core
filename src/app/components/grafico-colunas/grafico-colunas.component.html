@@ -1,0 +1,45 @@
+<div class="componente-13">
+    <div class="conteudo">
+        <div class="top">
+            <h1>Canal Dev Net Core</h1>
+        </div>
+
+        <div class="grafico">
+            <div class="gridColuna">
+             
+                <!-- <div class="coluna" >
+
+                    <div class="tituloColuna"> Titulo</div>
+
+                    <div class="colunaPorcentagem">
+                        <div class="porcentagem"></div>
+                    </div>
+
+                    <div class="bolinha">
+                        <span class="porcentagemTitulo">80%</span>
+                    </div>
+
+                </div> -->
+
+
+                <div class="coluna" *ngFor="let item of colunas" >
+
+                    <div class="tituloColuna"> {{item.Descricao}}</div>
+
+                    <div class="colunaPorcentagem">
+                        <div class="porcentagem" [style]="{'height': ajustePorcentagem(item.Porcentagem)}"></div>
+                    </div>
+
+                    <div class="bolinha" [style]="{'background' : item.Porcentagem < 9 ? 'rgba(255,0,0,0.6)' : ''}" >
+                        <span class="porcentagemTitulo">{{item.Porcentagem}}%</span>
+                    </div>
+
+                </div>
+
+                
+
+            </div>
+        </div>
+    
+    </div>
+</div>
