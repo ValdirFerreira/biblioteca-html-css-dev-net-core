@@ -1,0 +1,100 @@
+<div class="container-drag">
+    <div class="drag-zone top" draggable="true" (dragstart)="onDragStart($event, 'top')" (dragover)="onDragOver($event)"
+        (drop)="onDrop($event, 'top')" (dragleave)="onDragLeave($event)">
+        <div *ngIf="itemSelect === 'top'" class="sidebar-box-2" draggable="true"
+            (dragstart)="onDragStart($event, 'top')" (dragover)="onDragOver($event)" (drop)="onDrop($event, 'top')"
+            (dragleave)="onDragLeave($event)">
+            <div class="sidebar sidebar-hor">
+
+                <div class="icone-hand-move-horizontal"></div>
+                <div class="menu-item">
+                    <div [ngClass]="'icone pessoas'" title="pessoas"></div>
+                </div>
+                <div class="menu-item">
+                    <div [ngClass]="'icone document_1'" title="document_1"></div>
+                </div>
+                <div class="menu-item">
+                    <div [ngClass]="'icone document_check'" title="document_1"></div>
+                </div>
+                <hr class="horizontal-hr">
+                <div class="menu-item">
+                    <div [ngClass]="'icone adicionar'" title="Favoritos"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="drag-zone left" draggable="true" (dragstart)="onDragStart($event, 'left')"
+        (dragover)="onDragOver($event)" (drop)="onDrop($event, 'left')" (dragleave)="onDragLeave($event)">
+        <div *ngIf="itemSelect === 'left'" class="sidebar-box-2" draggable="true"
+            (dragstart)="onDragStart($event, 'left')" (dragover)="onDragOver($event)" (drop)="onDrop($event, 'left')"
+            (dragleave)="onDragLeave($event)">
+            <div class="sidebar">
+                <div class="icone-hand-move"></div>
+                <div class="menu-item">
+                    <div [ngClass]="'icone pessoas'" title="pessoas"></div>
+                </div>
+                <div class="menu-item">
+                    <div [ngClass]="'icone document_1'" title="document_1"></div>
+                </div>
+                <div class="menu-item">
+                    <div [ngClass]="'icone document_check'" title="document_1"></div>
+                </div>
+                <hr class="horizontal-hr">
+                <div class="menu-item">
+                    <div [ngClass]="'icone adicionar'" title="Favoritos"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="drag-zone right" draggable="true" (dragstart)="onDragStart($event, 'right')"
+        (dragover)="onDragOver($event)" (drop)="onDrop($event, 'right')" (dragleave)="onDragLeave($event)">
+        <div *ngIf="itemSelect === 'right'" class="sidebar-box-2" draggable="true"
+            (dragstart)="onDragStart($event, 'right')" (dragover)="onDragOver($event)" (drop)="onDrop($event, 'right')"
+            (dragleave)="onDragLeave($event)">
+            <div class="sidebar">
+                <div class="icone-hand-move"></div>
+                <div class="menu-item">
+                    <div [ngClass]="'icone pessoas'" title="pessoas"></div>
+                </div>
+                <div class="menu-item">
+                    <div [ngClass]="'icone document_1'" title="document_1"></div>
+                </div>
+                <div class="menu-item">
+                    <div [ngClass]="'icone document_check'" title="document_1"></div>
+                </div>
+                <hr class="horizontal-hr">
+                <div class="menu-item">
+                    <div [ngClass]="'icone adicionar'" title="Favoritos"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="drag-zone bottom" draggable="true" (dragstart)="onDragStart($event, 'bottom')"
+        (dragover)="onDragOver($event)" (drop)="onDrop($event, 'bottom')" (dragleave)="onDragLeave($event)">
+        <div *ngIf="itemSelect === 'bottom'" class="sidebar-box-2" draggable="true"
+            (dragstart)="onDragStart($event, 'bottom')" (dragover)="onDragOver($event)"
+            (drop)="onDrop($event, 'bottom')" (dragleave)="onDragLeave($event)">
+            <div class="sidebar sidebar-hor">
+                <div class="icone-hand-move-horizontal"></div>
+                <div class="menu-item">
+                    <div [ngClass]="'icone pessoas'" title="pessoas"></div>
+                </div>
+                <div class="menu-item">
+                    <div [ngClass]="'icone document_1'" title="document_1"></div>
+                </div>
+                <div class="menu-item">
+                    <div [ngClass]="'icone document_check'" title="document_1"></div>
+                </div>
+                <hr class="horizontal-hr">
+                <div class="menu-item">
+                    <div [ngClass]="'icone adicionar'" title="Favoritos"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

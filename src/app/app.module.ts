@@ -16,6 +16,7 @@ import { MenuFotoComponent } from './components/menu-foto/menu-foto.component';
 import { ComponenteBtnComponent } from './components/componente-btn/componente-btn.component';
 import { MsnAutoComponent } from './components/msn-auto/msn-auto.component';
 import { GraficoColunasComponent } from './components/grafico-colunas/grafico-colunas.component';
+import { MenuPositionComponent } from './components/menu-position/menu-position.component';
 
 
 @NgModule({
@@ -34,6 +35,7 @@ import { GraficoColunasComponent } from './components/grafico-colunas/grafico-co
     ComponenteBtnComponent,
     MsnAutoComponent,
     GraficoColunasComponent,
+    MenuPositionComponent,
 
   ],
   imports: [
