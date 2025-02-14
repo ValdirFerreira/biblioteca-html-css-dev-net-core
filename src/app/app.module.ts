@@ -36,6 +36,7 @@ import { MenuPositionComponent } from './components/menu-position/menu-position.
     MsnAutoComponent,
     GraficoColunasComponent,
     MenuPositionComponent,
+  
 
   ],
   imports: [
