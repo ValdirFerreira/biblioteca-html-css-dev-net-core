@@ -17,6 +17,7 @@ import { ComponenteBtnComponent } from './components/componente-btn/componente-b
 import { MsnAutoComponent } from './components/msn-auto/msn-auto.component';
 import { GraficoColunasComponent } from './components/grafico-colunas/grafico-colunas.component';
 import { MenuPositionComponent } from './components/menu-position/menu-position.component';
+import { ModoDarkComponent } from './components/modo-dark/modo-dark.component';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import { MenuPositionComponent } from './components/menu-position/menu-position.
     MsnAutoComponent,
     GraficoColunasComponent,
     MenuPositionComponent,
+    ModoDarkComponent,
   
 
   ],
