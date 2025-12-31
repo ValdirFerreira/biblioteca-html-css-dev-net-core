@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container-pc {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://wallpapers.com/images/hd/macbook-purple-color-burst-svgakc3ai3jpv6ym.webp");
+    background-repeat: no-repeat;
+}
+
+.menu-bar {
+    height: 28px;
+    background: rgba(30, 30, 30, 0.65);
+    backdrop-filter: blur(30px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 14px;
+    font-size: 13px;
+    color: white;
+    z-index: 10;
+}
+
+.menu-left span {
+    margin-right: 14px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.control-center {
+    position: absolute;
+    top: 36px;
+    left: 12px;
+    width: 180px;
+    padding: 14x;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(35px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .6);
+    z-index: 9;
+}
+
+.cc-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+}
+
+.cc-item {
+    height: 56px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    transition: transform .2s ease, background .2s ease;
+}
+
+.cc-item:hover {
+    background: rgba(255, 255, 255, 0.35);
+    transform: scale(1.1);
+}
+
+.dock {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.123);
+    backdrop-filter: blur(40px);
+    border-radius: 26px;
+    padding: 12px 22pxx;
+}
+
+.mac-gear {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.gear-item {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform .25s ease, background .25s ease;
+}
+
+.gear-item:hover {
+    background: rgba(255, 255, 255, 0.691);
+    transform: scale(1.95) translateY(-6px) ;
+}
+
+.gear-item img {
+    width: 26px;
+    height: 26px;
+}

@@ -18,6 +18,7 @@ import { MsnAutoComponent } from './components/msn-auto/msn-auto.component';
 import { GraficoColunasComponent } from './components/grafico-colunas/grafico-colunas.component';
 import { MenuPositionComponent } from './components/menu-position/menu-position.component';
 import { ModoDarkComponent } from './components/modo-dark/modo-dark.component';
+import { AreaTrabalhoMacComponent } from './components/area-trabalho-mac/area-trabalho-mac.component';
 
 
 @NgModule({
@@ -38,6 +39,7 @@ import { ModoDarkComponent } from './components/modo-dark/modo-dark.component';
     GraficoColunasComponent,
     MenuPositionComponent,
     ModoDarkComponent,
+    AreaTrabalhoMacComponent,
   
 
   ],

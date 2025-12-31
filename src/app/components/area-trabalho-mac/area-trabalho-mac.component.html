@@ -1,0 +1,38 @@
+<div class="container-pc">
+  <header class="menu-bar">
+    <div class="menu-left">
+      <span (click)="toggleMenu()">Canal Dev Net Core</span>
+      <span>Code</span>
+      <span>Arquivo</span>
+      <span>Editar</span>
+      <span>Exibir</span>
+      <span>Ir</span>
+      <span>Ajuda</span>
+    </div>
+
+    <div class="menu-right">
+      <span>Qui. 24 de dez 2025 23:59</span>
+    </div>
+  </header>
+
+  <div *ngIf="menuActive" class="control-center">
+    <div class="cc-grid">
+      <div class="cc-item">🖥️</div>
+      <div class="cc-item">🎧</div>
+      <div class="cc-item">📁</div>
+      <div class="cc-item">⚙️</div>
+    </div>
+  </div>
+
+  <footer class="dock">
+    <div class="mac-gear">
+      <div class="gear-item"><img src="https://cdn-icons-png.flaticon.com/512/732/732212.png"></div>
+      <div class="gear-item"><img src="https://cdn-icons-png.flaticon.com/512/732/732245.png"></div>
+      <div class="gear-item"><img src="https://cdn-icons-png.flaticon.com/512/149/149071.png"></div>
+      <div class="gear-item"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968776.png"></div>
+      <div class="gear-item"><img src="https://cdn-icons-png.flaticon.com/512/888/888879.png"></div>
+    </div>
+  </footer>
+
+
+</div>
